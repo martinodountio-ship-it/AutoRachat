@@ -1,0 +1,11 @@
+# IMPORTANT : scikit-learn doit avoir EXACTEMENT la même version que dans le notebook
+# (un modèle sérialisé n'est garanti de se recharger que dans la même version).
+# Vérifiez avec :  python -c "import sklearn; print(sklearn.__version__)"  puis figez ci-dessous.
+scikit-learn==1.9.1
+pandas>=2.2
+numpy>=1.26
+joblib>=1.4
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pydantic>=2.6
+mlflow>=3.0
